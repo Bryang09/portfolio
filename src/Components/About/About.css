@@ -1,0 +1,75 @@
+.About {
+  height: 40vh;
+  background: #1e1c1c;
+  display: flex;
+  color: rgba(255, 255, 255, 0.95);
+}
+
+.text {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  height: 100%;
+}
+
+.text h2 {
+  margin: 0;
+  font-size: 3em;
+}
+
+.text h4 {
+  margin-left: 2vw;
+  font-weight: 400;
+}
+
+.Me {
+  margin: 0;
+  color: rgb(60, 169, 255);
+}
+
+.text ul {
+  width: 90%;
+  list-style: none;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.text ul li {
+  color: rgba(255, 255, 255, 0.95);
+  margin: 1vh 0;
+  border: 1px solid rgb(60, 169, 255);
+  width: 10vw;
+  padding: 7px 0;
+  margin: 1vh 0.2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+@media only screen and (max-width: 1200px) {
+  .text ul li {
+    width: 20vw;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .About {
+    flex-direction: column;
+  }
+  .text {
+    width: 100%;
+  }
+  .text h4 {
+    width: 90%;
+  }
+  #About {
+    background: #fff;
+    color: #1e1c1c;
+  }
+}
