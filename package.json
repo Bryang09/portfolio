@@ -5,7 +5,6 @@
   "homepage": "https://bryang09.github.io/portfolio",
   "dependencies": {
     "react": "^16.4.2",
-    "react-customscroll": "^4.0.5",
     "react-dom": "^16.4.2",
     "react-scripts": "1.1.5",
     "react-typing-animation": "^1.4.0",
