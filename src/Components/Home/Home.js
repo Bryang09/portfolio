@@ -1,9 +1,6 @@
 import React, { Component } from "react";
 import WOW from "wowjs";
 import Typing from "react-typing-animation";
-
-// import { Link } from "react-router-dom";
-
 import "./Home.css";
 
 import NavBar from "../NavBar/NavBar";
