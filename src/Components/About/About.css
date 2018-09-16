@@ -64,12 +64,18 @@
   }
   .text {
     width: 100%;
+    /* padding: 4vh 0; */
   }
   .text h4 {
     width: 90%;
   }
   #About {
     background: #fff;
-    color: #1e1c1c;
+    color: #706f6f;
+    /* padding: 4vh 0; */
+  }
+  .text ul li {
+    width: 30vw;
+    margin: 1vh 0.8vw;
   }
 }
