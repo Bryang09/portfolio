@@ -6,7 +6,9 @@ import "./About.css";
 
 class About extends Component {
   componentDidMount = () => {
-    const wow = new WOW.WOW();
+    const wow = new WOW.WOW({
+      live: false
+    });
     wow.init();
   };
   render() {

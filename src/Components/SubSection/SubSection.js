@@ -6,7 +6,9 @@ import "./SubSection.css";
 
 class SubSection extends Component {
   componentDidMount = () => {
-    const wow = new WOW.WOW();
+    const wow = new WOW.WOW({
+      live: false
+    });
     wow.init();
   };
   render() {

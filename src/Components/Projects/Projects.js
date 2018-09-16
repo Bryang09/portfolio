@@ -6,15 +6,6 @@ class Projects extends Component {
   state = {
     Projects: [
       {
-        id: 3,
-        img: "recipe.jpg",
-        title: "Recipe Application",
-        desc:
-          "This app makes use of the Food2Fork api. Completed with React, Axios, and React-Router, this app will deliver a number of recipes for any craving.",
-        demo: "https://infinite-gorge-45558.herokuapp.com/",
-        code: "https://github.com/Bryang09/recipe"
-      },
-      {
         id: 4,
         img: "restaurant.jpg",
         title: "Restaurant Application",
@@ -24,13 +15,13 @@ class Projects extends Component {
         code: "https://github.com/Bryang09/restaurant"
       },
       {
-        id: 0,
-        img: "clothing.jpg",
-        title: "Clothing Store",
+        id: 3,
+        img: "recipe.jpg",
+        title: "Recipe Application",
         desc:
-          " An application that makes use of the MERN Stack, Bryan's Clothing Store shows a mock online retail store.",
-        demo: "https://pure-tundra-64712.herokuapp.com/",
-        code: "https://github.com/Bryang09/clothing "
+          "This app makes use of the Food2Fork api. Completed with React, Axios, and React-Router, this app will deliver a number of recipes for any craving.",
+        demo: "https://infinite-gorge-45558.herokuapp.com/",
+        code: "https://github.com/Bryang09/recipe"
       },
       {
         id: 1,
@@ -42,6 +33,25 @@ class Projects extends Component {
         code: " https://github.com/Bryang09/movies"
       },
       {
+        id: 5,
+        img: "shelter.jpg",
+        title: "Shelter App",
+        desc:
+          "  An application which constantly searches for both shelters and animals based on their ZIP Code.",
+        demo: "https://bryang09.github.io/adoption/#/",
+        code: "https://github.com/Bryang09/adoption"
+      },
+      {
+        id: 0,
+        img: "clothing.jpg",
+        title: "Clothing Store",
+        desc:
+          " An application that makes use of the MERN Stack, Bryan's Clothing Store shows a mock online retail store.",
+        demo: "https://pure-tundra-64712.herokuapp.com/",
+        code: "https://github.com/Bryang09/clothing "
+      },
+
+      {
         id: 2,
         img: "estate.jpg",
         title: "Real Estate App",
@@ -49,21 +59,14 @@ class Projects extends Component {
           " As with the Clothing Store, This application uses the MERN Stack to display some mock listings",
         demo: "https://arcane-bayou-79440.herokuapp.com/",
         code: "https://github.com/Bryang09/real-estate"
-      },
-      {
-        id: 3,
-        img: "shelter.jpg",
-        title: "Shelter App",
-        desc:
-          "  An application which constantly searches for both shelters and animals based on their ZIP Code.",
-        demo: "https://bryang09.github.io/adoption/#/",
-        code: "https://github.com/Bryang09/adoption"
       }
     ]
   };
 
   componentDidMount = () => {
-    const wow = new WOW.WOW();
+    const wow = new WOW.WOW({
+      live: false
+    });
     wow.init();
   };
   render() {

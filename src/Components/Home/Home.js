@@ -3,18 +3,17 @@ import WOW from "wowjs";
 import Typing from "react-typing-animation";
 import "./Home.css";
 
-import NavBar from "../NavBar/NavBar";
-
 class Home extends Component {
   componentDidMount = () => {
-    const wow = new WOW.WOW();
+    const wow = new WOW.WOW({
+      live: false
+    });
     wow.init();
   };
   render() {
     console.log(this.props);
     return (
       <div className="HomeMain">
-        <NavBar />
         <div className="Home">
           <Typing speed={50} className="Home">
             <h1>Bryan Gonzalez</h1>
