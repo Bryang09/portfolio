@@ -20,7 +20,7 @@ class Projects extends Component {
         title: "Recipe Application",
         desc:
           "This app makes use of the Food2Fork api. Completed with React, Axios, and React-Router, this app will deliver a number of recipes for any craving.",
-        demo: "https://infinite-gorge-45558.herokuapp.com/",
+        demo: "https://bryang09.github.io/recipe/#/",
         code: "https://github.com/Bryang09/recipe"
       },
       {

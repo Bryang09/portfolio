@@ -14,11 +14,7 @@ class SubSection extends Component {
   render() {
     return (
       <div className="SubSection" id="sub">
-        <div
-          className="box1 box  wow fadeIn"
-          data-wow-offset="50"
-          data-wow-duration="1s"
-        >
+        <div className="box1 box wow fadeIn" data-wow-duration="1s">
           <div className="innerText">
             <h2>Best Practice Code</h2>
             <h3>
@@ -26,11 +22,7 @@ class SubSection extends Component {
             </h3>
           </div>
         </div>
-        <div
-          className="box2 box wow fadeIn"
-          data-wow-offset="50"
-          data-wow-duration="1.2s"
-        >
+        <div className="box2 box wow fadeIn" data-wow-duration="1.2s">
           <div className="innerText">
             <h2>Responsive Designs</h2>
             <h3>
@@ -39,11 +31,7 @@ class SubSection extends Component {
             </h3>
           </div>
         </div>
-        <div
-          className="box3 box wow fadeIn"
-          data-wow-offset="50"
-          data-wow-duration="1.4s"
-        >
+        <div className="box3 box wow fadeIn" data-wow-duration="1.4s">
           <div className="innerText">
             <h2>Lifelong Learner</h2>
             <h3>
